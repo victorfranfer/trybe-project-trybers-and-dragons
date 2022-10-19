@@ -3,6 +3,7 @@ import Energy from './Energy';
 import Fighter from './Fighter/Fighter';
 import Race, { Elf } from './Races';
 import getRandomInt from './utils';
+import { SimpleFighter } from './Fighter';
 
 export default class Character implements Fighter {
   private _race: Race;
@@ -79,8 +80,8 @@ export default class Character implements Fighter {
     return this.lifePoints;
   }
 
-  attack(enemy: Fighter) {
-    return enemy.receiveDamage(this.strength);
+  attack(enemy: SimpleFighter) {
+    return enemy.receiveDamage(this._strength);
   }
 
   levelUp() {
