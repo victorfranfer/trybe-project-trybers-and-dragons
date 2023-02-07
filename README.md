@@ -1,4 +1,4 @@
-# :construction: README customizado em construção ! :construction:
+# Trybers and Dragons - Trybe Project
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
@@ -11,3 +11,6 @@ Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua cr
 - quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
 - quais arquivos/pastas foram desenvolvidos pela Trybe.
 -->
+Structuring entities for a game inspired by Dungeons and Dragons, using OOP and Typescript.
+
+Done in October 2022.
